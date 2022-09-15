@@ -5,6 +5,7 @@ const qs = require('querystring')
 
 const STATUS_MAP = {
   null: {id: 'information_received', text:'상품준비중'},
+  21: { id: 'in_transit', text: '상품이동중'},
   11: {id: 'at_pickup', text:'상품인수'},
   41: {id: 'in_transit', text:'상품이동중'},
   42: {id: 'in_transit', text:'상품이동중'}, // 원래는 배송지 도착이지만 제공하지 않음 (표준화)
